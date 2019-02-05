@@ -1,0 +1,23 @@
+﻿Build started 2/18/2018 10:31:17 PM.
+     1>Project "C:\Users\musta\Downloads\Lab5\Lab5\Lab5\Lab5.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ListLinked.cpp show5.cpp test5.cpp
+         test5.cpp
+     1>c:\users\musta\downloads\lab5\lab5\lab5\listlinked.cpp(332): warning C4101: 'moveItem' : unreferenced local variable
+                 c:\users\musta\downloads\lab5\lab5\lab5\listlinked.cpp(319) : while compiling class template member function 'void List<char>::moveToBeginning(void) throw(std::logic_error)'
+                 c:\users\musta\downloads\lab5\lab5\lab5\test5.cpp(116) : see reference to function template instantiation 'void List<char>::moveToBeginning(void) throw(std::logic_error)' being compiled
+                 c:\users\musta\downloads\lab5\lab5\lab5\test5.cpp(23) : see reference to class template instantiation 'List<char>' being compiled
+         show5.cpp
+         ListLinked.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\musta\Downloads\Lab5\Lab5\Debug\Lab5.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\musta\Downloads\Lab5\Lab5\Debug\Lab5.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\musta\Downloads\Lab5\Lab5\Debug\Lab5.lib" /MACHINE:X86 /SAFESEH Debug\ListLinked.obj
+         Debug\show5.obj
+         Debug\test5.obj
+     1>ListLinked.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+         Lab5.vcxproj -> C:\Users\musta\Downloads\Lab5\Lab5\Debug\Lab5.exe
+     1>Done Building Project "C:\Users\musta\Downloads\Lab5\Lab5\Lab5\Lab5.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.36
